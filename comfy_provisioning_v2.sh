@@ -18,7 +18,7 @@ PIP_PACKAGES=(
     #"package-2"
 )
 
-CUSTOM_NODES=(
+NODES=(
     "https://github.com/ltdrdata/ComfyUI-Manager"
     "https://github.com/cubiq/ComfyUI_essentials"
     "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation.git"
@@ -32,6 +32,7 @@ CUSTOM_NODES=(
 
 CHECKPOINT_MODELS=(
     "https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
+    "https://civitai.com/api/download/models/145885?type=Model&format=SafeTensor&size=pruned&fp=fp16"
     "https://civitai.com/api/download/models/886245?type=Model&format=GGUF&size=pruned&fp=fp8"
     "https://civitai.com/api/download/models/143906?type=Model&format=SafeTensor&size=pruned&fp=fp16"
     #"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
