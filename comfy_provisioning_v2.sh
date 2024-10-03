@@ -25,14 +25,14 @@ NODES=(
     "https://github.com/ssitu/ComfyUI_UltimateSDUpscale.git"
     "https://github.com/FizzleDorf/ComfyUI_FizzNodes.git"
     "https://github.com/cubiq/ComfyUI_IPAdapter_plus.git"
-    "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved.git"
-    "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite.git"
-    "https://github.com/rgthree/rgthree-comfy.git"
+    ##"https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved.git"
+    ##"https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite.git"
+    ##"https://github.com/rgthree/rgthree-comfy.git"
 )
 
 CHECKPOINT_MODELS=(
     #"https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
-    "https://huggingface.co/Yntec/epiCPhotoGasm"
+    ##"https://huggingface.co/Yntec/epiCPhotoGasm"
     "https://civitai.com/api/download/models/143906?type=Model&format=SafeTensor&size=pruned&fp=fp16"
     #"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
@@ -43,8 +43,12 @@ UNET_MODELS=(
 
 )
 
+ANIMATEDIFF_MODELS=(
+    "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved.git"
+)
+
 LORA_MODELS=(
-    #"https://civitai.com/api/download/models/16576"
+    "https://civitai.com/api/download/models/16576"
     "https://civitai.com/api/download/models/372464?type=Model&format=SafeTensor"
     "https://civitai.com/api/download/models/178774?type=Model&format=SafeTensor"
     "https://huggingface.co/latent-consistency/lcm-lora-sdv1-5"
