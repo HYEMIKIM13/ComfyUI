@@ -41,6 +41,7 @@ LORA_MODELS=(
     #"https://civitai.com/api/download/models/16576"
     "https://civitai.com/api/download/models/372464?type=Model&format=SafeTensor"
     "https://civitai.com/api/download/models/178774?type=Model&format=SafeTensor"
+    "https://huggingface.co/latent-consistency/lcm-lora-sdv1-5"
 )
 
 VAE_MODELS=(
