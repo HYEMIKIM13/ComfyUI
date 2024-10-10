@@ -44,6 +44,11 @@ UNET_MODELS=(
 
 )
 
+IPADAPTER_MODELS=(
+    "https://github.com/cubiq/Diffusers_IPAdapter.git"
+
+)
+
 ANIMATEDIFF_MODELS=(
     "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved.git"
 )
