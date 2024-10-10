@@ -46,9 +46,9 @@ UNET_MODELS=(
 
 )
 
-IPADAPTER_MODELS=(
-    "https://github.com/cubiq/Diffusers_IPAdapter"
 
+IPADAPTER_MODELS=(
+    "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus_sd15.safetensors?download=true"
 )
 
 ANIMATEDIFF_MODELS=(
