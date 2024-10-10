@@ -28,6 +28,7 @@ NODES=(
     "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved"
     "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite"
     "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
+    "https://github.com/tencent-ailab/IP-Adapter"
    
 )
 
@@ -99,6 +100,7 @@ CLIP_MODELS=(
 
 IPADAPTER_MODELS=(
     "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus_sd15.safetensors?download=true"
+    
 )
 
 
