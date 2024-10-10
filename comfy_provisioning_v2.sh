@@ -21,13 +21,13 @@ PIP_PACKAGES=(
 NODES=(
     "https://github.com/ltdrdata/ComfyUI-Manager"
     "https://github.com/cubiq/ComfyUI_essentials"
-    "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation.git"
-    "https://github.com/ssitu/ComfyUI_UltimateSDUpscale.git"
-    "https://github.com/FizzleDorf/ComfyUI_FizzNodes.git"
-    "https://github.com/cubiq/ComfyUI_IPAdapter_plus.git"
-    "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved.git"
-    "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite.git"
-    "https://github.com/rgthree/rgthree-comfy.git"
+    "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation"
+    "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
+    "https://github.com/FizzleDorf/ComfyUI_FizzNodes"
+    "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
+    "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved"
+    "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite"
+    "https://github.com/rgthree/rgthree-comfy"
 )
 
 CHECKPOINT_MODELS=(
@@ -45,12 +45,12 @@ UNET_MODELS=(
 )
 
 IPADAPTER_MODELS=(
-    "https://github.com/cubiq/Diffusers_IPAdapter.git"
+    "https://github.com/cubiq/Diffusers_IPAdapter"
 
 )
 
 ANIMATEDIFF_MODELS=(
-    "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved.git"
+    "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved"
 )
 
 LORA_MODELS=(
