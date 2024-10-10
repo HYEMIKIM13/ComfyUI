@@ -21,13 +21,14 @@ PIP_PACKAGES=(
 NODES=(
     "https://github.com/ltdrdata/ComfyUI-Manager"
     "https://github.com/cubiq/ComfyUI_essentials"
+    "https://github.com/rgthree/rgthree-comfy"
     "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation"
     "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
     "https://github.com/FizzleDorf/ComfyUI_FizzNodes"
-    "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
     "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved"
     "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite"
-    "https://github.com/rgthree/rgthree-comfy"
+    "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
+   
 )
 
 CHECKPOINT_MODELS=(
@@ -52,8 +53,8 @@ ANIMATEDIFF_MODELS=(
 
 LORA_MODELS=(
     "https://civitai.com/api/download/models/16576"
-    "https://civitai.com/api/download/models/372464?type=Model&format=SafeTensor"
-    "https://civitai.com/api/download/models/178774?type=Model&format=SafeTensor"
+    "https://civitai.com/api/download/models/372464"
+    "https://civitai.com/api/download/models/178774"
     "https://huggingface.co/latent-consistency/lcm-lora-sdv1-5"
 )
 
