@@ -46,11 +46,6 @@ UNET_MODELS=(
 
 )
 
-
-IPADAPTER_MODELS=(
-    "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus_sd15.safetensors?download=true"
-)
-
 ANIMATEDIFF_MODELS=(
     "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved"
 )
@@ -98,8 +93,13 @@ CONTROLNET_MODELS=(
 )
 
 CLIP_MODELS=(
-    #"https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x4.pth"
+    "https://huggingface.co/h94/IP-Adapter/resolve/main/models/image_encoder/model.safetensors"
 )
+
+IPADAPTER_MODELS=(
+    "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus_sd15.safetensors?download=true"
+)
+
 
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
 
