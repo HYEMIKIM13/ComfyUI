@@ -136,9 +136,12 @@ function provisioning_start() {
     provisioning_get_models \
         "${WORKSPACE}/storage/stable_diffusion/models/clip" \
         "${CLIP_MODELS[@]}"
-         provisioning_get_models \
+    provisioning_get_models \
         "${WORKSPACE}/storage/stable_diffusion/models/ipadapter" \
         "${IPADAPTER_MODELS[@]}"
+    provisioning_get_models \
+        "${WORKSPACE}/storage/stable_diffusion/models/animatediff" \
+        "${ANIMATEDIFF_MODELS[@]}"
     provisioning_print_end
 }
 
