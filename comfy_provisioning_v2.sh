@@ -143,9 +143,9 @@ function provisioning_start() {
     provisioning_get_models \
         "${WORKSPACE}/storage/stable_diffusion/models/ipadapter" \
         "${IPADAPTER_MODELS[@]}"
-    provisioning_get_models \
-        "${WORKSPACE}/storage/stable_diffusion/models/animatediff" \
-        "${ANIMATEDIFF_MODELS[@]}"
+provisioning_get_models \
+    "${WORKSPACE}/storage/stable_diffusion/models/animatediff" \
+    "${ANIMATEDIFF_MODELS[@]}"
     provisioning_print_end
 }
 
@@ -215,6 +215,7 @@ function provisioning_get_models() {
         printf "\n"
     done
 }
+
 
 function provisioning_print_header() {
     printf "\n##############################################\n#                                            #\n#          Provisioning container            #\n#                                            #\n#         This will take some time           #\n#                                            #\n# Your container will be ready on completion #\n#                                            #\n##############################################\n\n"
