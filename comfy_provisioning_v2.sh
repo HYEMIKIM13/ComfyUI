@@ -57,6 +57,7 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/372464"
     "https://civitai.com/api/download/models/178774"
     "https://huggingface.co/latent-consistency/lcm-lora-sdv1-5"
+    "https://civitai.com/api/download/models/72282?type=Model&format=SafeTensor"
 )
 
 VAE_MODELS=(
@@ -96,6 +97,7 @@ CONTROLNET_MODELS=(
 
 CLIP_MODELS=(
     "https://huggingface.co/h94/IP-Adapter/resolve/main/models/image_encoder/model.safetensors"
+    "https://huggingface.co/openai/clip-vit-base-patch32"
 )
 
 IPADAPTER_MODELS=(
